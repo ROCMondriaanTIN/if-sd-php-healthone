@@ -29,7 +29,9 @@ switch ($params[1]) {
         break;
 
     case 'category':
-        include_once "../Templates/home.php";
+        $id = $params[2];
+        $products = getCategory($id);
+        include_once "../Templates/products.php";
         break;
 
     case 'product':

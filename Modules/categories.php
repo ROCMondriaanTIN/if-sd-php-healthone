@@ -7,7 +7,9 @@ function getCategories():array
     return $categories;
 }
 
-function getCategoryName(int $id):string
+function getCategory(int $id):array
 {
-
+    global $pdo;
+    $products = $pdo->query('SELECT * FROM product WHERE category_id = ' . $id)->fetchAll(PDO::FETCH_CLASS, 'Product');
+    return $products;
 }
