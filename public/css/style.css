@@ -1,5 +1,6 @@
 body {
-    background-color: gainsboro
+    background-color: black;
+
 }
 
 .container {
@@ -16,7 +17,8 @@ body {
 }
 
 .banner-img {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .navbar {
@@ -25,4 +27,10 @@ body {
 
 .product-img {
     width: 70%;
+    height: 150px;
+}
+
+
+.header-text {
+    font-family: 'Grand Hotel', cursive;
 }
