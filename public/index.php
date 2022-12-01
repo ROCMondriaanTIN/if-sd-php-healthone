@@ -1,5 +1,6 @@
 <?php
 require '../Modules/categories.php';
+require '../Modules/product.php';
 require '../Modules/login.php';
 require '../Modules/logout.php';
 require '../Modules/database.php';
@@ -31,10 +32,13 @@ switch ($params[1]) {
     case 'category':
         $id = $params[2];
         $products = getCategory($id);
-        include_once "../Templates/products.php";
+        include_once "../Templates/product.php";
         break;
 
     case 'product':
+        $id = $params[2];
+        $product = getProduct($id);
+        include_once "../Templates/product_info.php";
         break;
 
     case 'login':
