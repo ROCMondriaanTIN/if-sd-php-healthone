@@ -28,12 +28,11 @@ include_once('defaults/head.php');
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body bg-gradient  text-center">
-                        <a href="/category/<?= $producten->id ?>">
+                        <a href="/product/<?= $producten->id ?>">
                             <img class="product-img img-responsive center-block img-fix" src='/img/<?= $producten->img ?>'/>
                         </a>
                         <div class="card-title mb-3"><?= $producten->name ?></div>
                     </div>
-
                 </div>
             </div>
         <?php endforeach; ?>
