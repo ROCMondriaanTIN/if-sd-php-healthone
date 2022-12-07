@@ -1,9 +1,6 @@
 <head><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/public/css/style.css"/>
 </head>
 
 
