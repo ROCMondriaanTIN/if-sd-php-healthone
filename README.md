@@ -45,7 +45,7 @@ NameVirtualHost *:4001
     </Directory>
 </VirtualHost>
 ```
-* Restart Apache in de XAMP instance.
-* Verplaats alle inhoud van de repository die je hebt gecloned naar: `C:/xampp/apps/healthone/htdocs/if-sd-php-healthone`
-* Open nu de `C:/xampp/apps/healthone/htdocs/if-sd-php-healthone` in PHPStorm.
+* Vervang `C:/xampp/apps/healthone/htdocs/if-sd-php-healthone/public` met de locatie waar jouw project staat. Zorg wel dat er `/public` er achter blijft staan. **Let op:** dit staat er twee keer in.
+* Restart Apache in de XAMPP.
+* Open nu de je project in PHPStorm.
 
