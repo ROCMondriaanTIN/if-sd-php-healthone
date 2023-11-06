@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+// Adds the head for the page.
 include_once('defaults/head.php');
 ?>
 
@@ -8,6 +9,7 @@ include_once('defaults/head.php');
 
 <div class="container">
     <?php
+    //adds the rest of the default files.
     include_once('defaults/header.php');
     include_once('defaults/menu.php');
     include_once('defaults/pictures.php');
@@ -20,6 +22,11 @@ include_once('defaults/head.php');
         </ol>
     </nav>
     <div class="row gy-3 ">
+        <!--
+            this will loop through all the categories as category.
+            because category is an object you use "->" to get the specific data.
+            so if you want to see the id from a category you type $category->id
+        -->
         <?php global $categories ?>
         <?php foreach ($categories as $category): ?>
             <div class="col-sm-4 col-md-3">
